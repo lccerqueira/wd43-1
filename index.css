@@ -31,6 +31,14 @@ body {
     right: 0;
 }
 
+.menu-opcoes a:hover {
+    color: #007dc6;
+}
+
+.menu-opcoes a:active {
+    color: #867dc6;
+}
+
 .menu-opcoes ul {
     font-size: 15px;
     color: #036;
@@ -94,9 +102,25 @@ input[type="search"] {
     font-size: 14px;
 }
 
+.menu-departamentos li:hover ul {
+    display: block;
+}
+
+.menu-departamentos li ul li {
+    background-color: #dcdcdc;
+}
+
+.menu-departamentos li li a::before {
+    content: '-';
+}
+
 .menu-departamentos li a {
     color: #333;
     text-decoration: none;
+}
+
+.menu-departamentos li ul {
+    display: none;
 }
 
 .painel {
