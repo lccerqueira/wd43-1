@@ -1,0 +1,76 @@
+body {
+    color: #333;
+    font-family: "Lucida Sans Unicode", sans-serif;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sacola {
+    background-image: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-size: 14px;
+    text-align: right;
+    width: 140px;
+    padding-top: 8px;
+    padding-right: 35px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menu-opcoes {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+    color: #036;
+}
+
+.menu-opcoes ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+section {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    background-color: #dcdcdc;
+    width: 230px;
+    padding: 8px;
+    border-radius: 5px 5px 0 0;
+    }
+
+input[type="search"] {
+    border-radius: 10px;
+    border: 1px solid #acacac;
+    padding-left: 8px;
+}
+
+.menu-departamentos {
+    background-color: #dcdcdc;
+    width: 230px;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.menu-departamentos h3 {
+    padding-bottom: 8px;
+}
+
+.menu-departamentos li {
+    background-color: #fff;
+    border-bottom: 1px solid #dcdcdc;
+} 
